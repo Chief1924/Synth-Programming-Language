@@ -27,7 +27,7 @@ Intializes a stream of a Synthesizer instrument as any symbol, s1 in this case.
 _`InitStream s183 as Synthesizer`_
 Intializes a stream of a Synthesizer instrument as any symbol, s183 in this case.
 
-**Initializing an existing stream will empty that existing stream and render it empty.**
+**Initializing an existing stream will reset that stream and render it empty.**
 
 # Adding Waves to Stream
 **The following line will only happen if a Stream has been initialized.** 
@@ -58,7 +58,7 @@ Plays the s1 symbol waves stream.
 **If no streams have been initialized, this will return an exception.**
 **Streams must exist for this to work.**
 1. _`pause(s183)`_
-Pauses the s1 symbol waves stream.
+Pauses the s183 symbol waves stream.
 ```
 
 ### Requirements
